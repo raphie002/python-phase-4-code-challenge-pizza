@@ -1,3 +1,4 @@
+// client/src/components/App.js
 import { Route, Switch } from "react-router";
 import Home from "./Home";
 import Navbar from "./Navbar";

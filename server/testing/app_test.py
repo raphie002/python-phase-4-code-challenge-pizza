@@ -1,6 +1,7 @@
+# server/testing/app_test.py
 from models import Restaurant, RestaurantPizza, Pizza
 from app import app, db
-from faker import Faker
+from faker import Faker # type: ignore
 
 
 class TestApp:
